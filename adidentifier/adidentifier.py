@@ -1,7 +1,6 @@
 # -*- coding: UTF-8 -*-
 
 import os
-import sys
 
 from tgrocery import Grocery
 
