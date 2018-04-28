@@ -4,9 +4,9 @@ from setuptools import setup, find_packages
 import sys  
   
 setup(  
-    name="tidy-page",  
-    version="0.1.1",  
-    author="Desion Wang",  
+    name="adidentifier",  
+    version="0.0.1",  
+    author="Alecyrus",  
     author_email="heyuangunia@gmail.com",  
     description="AdIdentifier",  
     long_description=open("README.md").read(),  
