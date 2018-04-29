@@ -5,16 +5,17 @@ import sys
   
 setup(  
     name="adidentifier",  
-    version="0.0.2",  
+    version="0.0.5",  
     author="Alecyrus",  
     author_email="heyuangunia@gmail.com",  
     description="AdIdentifier",  
     long_description=open("README.md").read(),  
     license="MIT",  
     url="https://github.com/Alecyrus/AdIdentifier",  
-    packages=['adidentifier'],  
-    install_requires=[  
-        "re2",  
+    packages=['adidentifier'],
+    package_dir={'adidentifier':'adidentifier'},
+    package_data={'adidentifier':['*.*','model/*']},
+    install_requires=[   
         "adblockparser",
         "tgrocery"
         ],  
@@ -29,5 +30,5 @@ setup(
         "Programming Language :: Python",  
         "Programming Language :: Python :: 2",  
         "Programming Language :: Python :: 2.7",  
-    ],  
+    ], 
 )  

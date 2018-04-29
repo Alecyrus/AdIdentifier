@@ -1,4 +1,3 @@
 adblockparser==0.7
 jieba==0.39
-re2==0.2.23
 tgrocery==0.1.4
