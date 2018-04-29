@@ -2,10 +2,10 @@
 ## Installation
 Prerequisites:
 * The re2 library from Google
-> # git clone https://github.com/google/re2.git & cd re2 & make & make install
+> \# git clone https://github.com/google/re2.git & cd re2 & make & make install
 
 * The Python development headers 
-> # apt-get install python-dev
+> \# apt-get install python-dev
 
 * Cython 0.20+ (pip install cython)
 > $ pip install cython
