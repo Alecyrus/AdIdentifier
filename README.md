@@ -1,6 +1,28 @@
 # AdIdentifier
 ## Installation
-> pip install adidentifier
+Prerequisites:
+* The re2 library from Google
+> # git clone https://github.com/google/re2.git & cd re2 & make & make install
+
+* The Python development headers 
+> # apt-get install python-dev
+
+* Cython 0.20+ (pip install cython)
+> $ pip install cython
+
+After the prerequisites are installed, install as follows (pip3 for python3):
+> $ pip install https://github.com/andreasvc/pyre2/archive/master.zip
+
+or
+>$ git clone git://github.com/andreasvc/pyre2.git
+
+>$ cd pyre2
+
+>$ make install
+
+then
+>$ pip install adidentifier
+
 ## Usage
 
 ### Example Code
