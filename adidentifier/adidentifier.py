@@ -6,18 +6,20 @@ from tgrocery import Grocery
 
 
 TRAIN_SRC = "textsample.txt"
+EASYLIST_SRC = "textsample.txt"
 from adblockparser import AdblockRules
 
 class AdIdentifier(object):
     def __init__(self):
-        self.raw_rules = open("easylist.txt", "r").readlines()
+        self.src = os.path.split(os.path.realpath(__file__))[0] 
+        self.raw_rules = open("%s/%s" % (self.src, EASYLIST_SRC), "r").readlines()
         self._initialize_adfilters()
         self._initialize_detector()
 
     def _initialize_detector(self):
         try:
             grocery = Grocery('model')
-            grocery.train(TRAIN_SRC)
+            grocery.train("%s/%s" %(self.src, TRAIN_SRC))
             grocery.save()
             self.grocery = Grocery('model')
             self.grocery.load()
