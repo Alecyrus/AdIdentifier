@@ -1,4 +1,7 @@
 # AdIdentifier
+[![PyPI version](https://img.shields.io/pypi/pyversions/adidentifier.svg)](https://pypi.python.org/pypi/adidentifier)
+[![PyPI](https://img.shields.io/pypi/v/adidentifier.svg)](https://pypi.python.org/pypi/adidentifier)
+
 ## Installation
 Prerequisites:
 * The re2 library from Google
