@@ -66,3 +66,11 @@ text_keywords = 网贷
 ad_filter = https://ss3.baidu.com/*,https://ss2.bdstatic.com/*
 ```
 
+### ATTENTION!!!
+调用is_finance(),判断链接是否是金融链接时，必须传入 href 超链接指向的target地址，且格式如同`{scheme}://{domain}/{path}`,其中`path`可以省略。
+
+
+
+
+
+
