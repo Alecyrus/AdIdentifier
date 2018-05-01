@@ -807,6 +807,7 @@ finance	earn money
 finance	earn Money
 finance	Earn money
 finance	Trade
+finance	58dai
 finance	trade
 finance	Trading
 finance	TRADERS

@@ -1,3 +1,7 @@
 adblockparser==0.7
+fuzzywuzzy==0.16.0
 jieba==0.39
+python-Levenshtein==0.12.0
+re2==0.2.23
 tgrocery==0.1.4
+urlparse4==0.1.3

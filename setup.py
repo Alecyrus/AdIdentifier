@@ -5,7 +5,7 @@ import sys
   
 setup(  
     name="adidentifier",  
-    version="0.0.5",  
+    version="0.0.6",  
     author="Alecyrus",  
     author_email="heyuangunia@gmail.com",  
     description="AdIdentifier",  
@@ -17,7 +17,11 @@ setup(
     package_data={'adidentifier':['*.*','model/*']},
     install_requires=[   
         "adblockparser",
-        "tgrocery"
+        "tgrocery",
+        "urlparse4",
+        "python-Levenshtein",
+        "jieba",
+        "fuzzywuzzy"
         ],  
     classifiers=[  
         "Environment :: Web Environment",  
