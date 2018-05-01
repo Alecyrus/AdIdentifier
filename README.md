@@ -57,3 +57,12 @@ https://www.aiqianzhan.com/html/register3_bd4.html?utm_source=bd4-pc-ss&utm_medi
 ('http://pagead2.googlesyndication.com/pagead/show_ads.js', '------>>', True)
 ('http://www.googletagservices.com/tag/js/gpt_mobile.js', '------>>', False)
 ```
+### Config
+Config will be generated automatically.
+```
+[CUSTOM]
+uri_keywords = qian,dai,cf,wd,jin
+text_keywords = 网贷
+ad_filter = https://ss3.baidu.com/*,https://ss2.bdstatic.com/*
+```
+
