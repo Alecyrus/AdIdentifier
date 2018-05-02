@@ -29,7 +29,7 @@ then
 ## Usage
 
 ### Example Code
-```
+```python
 from adidentifier import AdIdentifier
 if __name__ == "__main__":
 
@@ -54,7 +54,7 @@ if __name__ == "__main__":
     print ad.get_domain_from_url("https://www.asdasd.com/asdasd")
 ```
 ### Output
-```
+```shell
 速贷之家-借钱不担心_2小时到账 ------->> True
 https://www.aiqianzhan.com/html/register3_bd4.html?utm_source=bd4-pc-ss&utm_medium=bd4SEM&utm_campaign=D1-%BE%BA%C6%B7%B4%CA-YD&utm_content=%BE%BA%C6%B7%B4%CA-%C3%FB%B4%CA&utm_term=p2p%CD%F8%B4%FB ------->> True
 ('https://ss3.baidu.com/-rVXeDTa2gU2pMbgoY3K/it/u=3778907493,3669893773&fm=202&mola=new&crop=v1', '------>>', True)
@@ -66,7 +66,7 @@ www.asdasd.com
 ```
 ### Config
 Config will be generated automatically.
-```
+```ini
 [CUSTOM]
 uri_keywords = qian,dai,cf,wd,jin
 text_keywords = 网贷
