@@ -5,7 +5,7 @@ import sys
   
 setup(  
     name="adidentifier",  
-    version="0.0.7",  
+    version="0.0.8",  
     author="Alecyrus",  
     author_email="heyuangunia@gmail.com",  
     description="AdIdentifier",  
